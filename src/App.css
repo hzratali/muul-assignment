@@ -1,0 +1,126 @@
+/* Global Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+}
+
+h2, h3 {
+  margin-bottom: 16px;
+  color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #3f51b5; /* Example background color */
+  padding: 16px;
+}
+
+.navbar-brand {
+  color: white;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.navbar-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar-links li {
+  margin-left: 24px;
+}
+
+.navbar-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.navbar-links a:hover {
+  color: #dfe4ea;
+}
+
+/* Dashboard Styles */
+.dashboard-container {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.grid-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  flex: 1;
+  min-width: 300px; /* Ensure a minimum size for responsiveness */
+}
+
+/* Bar Chart Component */
+.bar-chart-container {
+  width: 100%;
+  height: 400px;
+}
+
+/* Pie Chart Component */
+.pie-chart-container {
+  width: 100%;
+  height: 400px;
+}
+
+/* Line Chart Component */
+.line-chart-container {
+  width: 100%;
+  height: 400px;
+}
+
+/* Chart Headings */
+.chart-heading {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+/* Miscellaneous */
+.chart-card {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Navbar Links */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-nav {
+  display: flex;
+}
+
+.navbar-nav a {
+  color: white;
+  margin-left: 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar-nav a:hover {
+  color: #dfe4ea;
+}
+
+
